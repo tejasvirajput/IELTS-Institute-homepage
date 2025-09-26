@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Hero text shadow for premium look */
+.hero h1 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons glow effect on hover */
+.btn-primary:hover {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
+
+/* Gradient overlay for hero image
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(59, 130, 246, 0.3),
+    rgba(147, 197, 253, 0.3)
+  );
+  z-index: 0;
+} */
+
+/* Testimonials italic subtle style */
+.card p {
+  font-style: italic;
+  color: #555;
+}
+
+/* Footer link hover effect */
+.footer a:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+/* Smooth scroll behavior for anchor links */
+html {
+  scroll-behavior: smooth;
+}
